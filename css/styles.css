@@ -1,0 +1,264 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 10px 30px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-links:hover {
+  color: #DA0037;
+}
+
+
+.background_cover {
+  position: relative;
+  margin: 0 auto;
+}
+
+.cover_image {
+  width: 100%;
+  /* height: 700px; */
+}
+
+.background_cover .content {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.actor_name {
+  font-size: 5rem;
+}
+
+.achievements {
+  background-color: #FEF7DC;
+  padding: 7% 15%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.award {
+  width: 33%;
+  padding: 20px;
+}
+
+.award-titles {
+  margin: 15px 10px;
+}
+
+/* Carousel */
+.celebs-heading {
+  font-family: 'Tourney', cursive;
+  color: white;
+  padding: 20px 0;
+  font-size: 3rem;
+}
+
+.carousel {
+  background-color: #0A1931;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-matter {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 80%;
+  margin: 0 10%;
+  padding: 20px;
+}
+
+.carousel-matter h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.carousel-image {
+  width: 80%;
+  padding: 5% 0;
+}
+
+.social-media {
+  padding: 7%;
+  text-align: center;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #000;
+  display: inline;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+/* Movies */
+.movies-title {
+  background-color: #FFF5DA;
+  text-align: center;
+  color: #171717;
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 4rem;
+  padding-top: 2%;
+  text-decoration: underline;
+}
+
+.movies-content {
+  background-color: #F3C583;
+  padding: : 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.movies-content1 {
+  background-color: #FFF5DA;
+  padding: : 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.movie {
+  margin: 25px;
+  width: 20%;
+}
+.poster {
+  width: 300px;
+  height: 400px;
+}
+.movie-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #171717;
+  padding-top: 10px;
+}
+
+/* About */
+.about-prabhas {
+  background-color: #FFF5DA;
+
+}
+
+.about-prabhas, .early-life {
+  padding: 5% 10%;
+}
+
+.early-life p {
+  font-family: cursive;
+}
+.about-prabhas p {
+  font-family: cursive;
+}
+
+.about-prabhas, .upcoming-movies h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.early-life, .upcoming-movies {
+  background-color: #F3C583;
+}
+
+.about-prabhas h2 {
+  margin: 20px auto;
+}
+
+.upcoming-movies {
+  text-align: center;
+  padding: 5% 0 2%;
+}
+
+
+
+@media (max-width: 990px) {
+  nav {
+    top: 5px;
+  }
+ nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+.content p {
+  line-height: 1;
+  margin: 0;
+}
+  .background_cover .content {
+    padding: 5px;
+  }
+
+  .actor_name {
+    font-size: 2rem;
+  }
+
+  .achievements {
+    flex-direction: column;
+  }
+
+  .award {
+    width: 100%;
+  }
+
+  .celebs-heading {
+    font-size: 1.5rem;
+  }
+
+  .carousel-matter h2,p {
+    font-size: 1rem;
+  }
+
+  .movies-title {
+    font-size: 2rem;
+    margin-top: 4%;
+  }
+
+  .movies-content {
+    margin: 5%;
+
+  }
+  .movie {
+    margin: 20px;
+    width: 40%;
+  }
+  .poster {
+    width: 200px;
+    height: 300px;
+  }
+  .movie-name {
+    font-size: 1.2rem;
+  }
+}
